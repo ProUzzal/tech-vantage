@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Secular+One&display=swap");
+
+* {
+  text-decoration: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -1px;
+}
+
+/* Common Style -------- */
+.container {
+  max-width: 1185px;
+  margin: 4.5rem auto;
+}
+
+ul,
+.hero {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+ul > li a {
+  display: inline-block;
+  margin: 0 1.1rem;
+  font-size: 0.9rem;
+  color: #1d1d1d;
+}
+
+/* ___________Common style end_____________ */
+/* .nav_list{
+    margin: 1.7rem 0;
+    border: 1px solid black;
+} */
+/* navigation bar  */
+header .container {
+  margin-top: 1.8rem;
+  /*  There is a bug . Why the margin property is not working  */
+  margin-bottom: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  font-family: "Secular One", sans-serif;
+  font-size: 1.33rem;
+}
+.login {
+  color: #094bca;
+}
+.get_started,
+button {
+  color: white;
+  padding: 10px 27px;
+  background-color: #1361f5;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #4970bd;
+  color: rgb(0, 0, 0);
+}
+#request_btn {
+  background-color: white;
+  color: #094bca;
+  border: 1px solid #e0e0e0;
+  font-size: 0.9rem;
+}
+.login {
+  color: #094bca;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown_content {
+  position: absolute;
+  box-shadow: 5px 5px 10px lightgray;
+}
+.dropdown_list {
+  display: none;
+}
+.dropdown_list li {
+  margin: 0.8rem 0;
+}
+.dropdown:hover .dropdown_list {
+  display: inline-block;
+}
+.dropdown_list li:hover {
+  background-color: lightgray;
+}
+
+/* ---------------Hero Part----------  */
+.hero_text h1 {
+  font-size: 2.5rem;
+  color: #1d1d1d;
+  margin-bottom: 1.95rem;
+}
+.hero_text p {
+  margin-bottom: 2.5rem;
+}
+
+/*---------------------- Feature Part ---------------- */
+.display_flex {
+  display: flex;
+  align-items: center;
+}
+.box_shadow {
+  font-size: 14px;
+  max-width: 250px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+  margin: 0 1.1rem;
+  padding: 0.8rem;
+}
+.single_feature img {
+  background-color: rgba(236, 178, 45, 0.1);
+  border-radius: 50%;
+  padding: 0.1rem;
+}
+/* -----steamline ---- */
+
+.streamline {
+  text-align: center;
+}
+.half {
+  max-width: 530px;
+  padding: 1rem;
+  color: #223140;
+}
+h4 {
+  color: #094bca;
+}
+
+.first_functionality {
+  justify-content: space-between;
+}
+/* ----intergation part ------------ */
+.intergation {
+  height: 405px;
+  background: rgba(217, 217, 217, 0.1);
+  justify-content: center;
+}
+
+.intergation .half img {
+  padding-top: 4rem;
+}
+.parent_intergation {
+  max-width: 1400px;
+}
+
+/*------------ review part -------------- */
+.client_reviews {
+  justify-content: center;
+}
+.review_heading {
+  margin: 8rem 5rem;
+}
+.review_heading {
+  text-align: center;
+}
+.single_review {
+  text-align: center;
+  width: 378px;
+  height: 320px;
+}
+.single_review img {
+  position: relative;
+  top: -50px;
+  margin-bottom: -2rem;
+}
+.single_review h2 {
+  color: #d9d9d9;
+}
+.single_review h4 {
+  color: #223140;
+}
+.award_block,
+.action {
+  padding: 1rem;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.award_block h1 {
+  color: #094bca;
+}
+.action {
+  position: relative;
+  background: rgba(217, 217, 217, 0.1);
+}
+.action_text {
+  max-width: 731px;
+  margin: 0 auto;
+}
+/* action part */
+#vector {
+  position: absolute;
+  left: 0;
+  top: -100px;
+}
+#vector_2 {
+  position: absolute;
+  right: 0;
+  bottom: -75px;
+}
+/*------------ Resources part ---------- */
+
+.resources h1 {
+  text-align: center;
+  margin: 3rem 0;
+}
+.resource_item {
+  flex-wrap: wrap;
+}
+.resources img {
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.single_resource {
+  max-width: 370px;
+  height: 348px;
+  margin: 10px;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+}
+.resource_text {
+  padding: 1rem;
+}
+.resource_text p {
+  margin: 10px 0;
+}
+small {
+  border-radius: 4px;
+  padding: 3px 8px;
+  background: rgba(19, 97, 245, 0.1);
+}
+small a {
+  color: #004ce6;
+}
+footer {
+  display: flex;
+}
+footer ul {
+  display: block;
+}
+footer h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+.footer_blog {
+  border-radius: 5px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  width: 370px;
+  display: flex;
+  height: 105px;
+  color: #535558;
+  margin: 1rem 0;
+}
+.footer_blog img {
+  border-radius: 5px 0px 0 5px;
+}
+.footer_blog a {
+  color: #094bca;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.one_third {
+  width: 370px;
+  padding: 1rem;
+}
+.one_third li,
+.one_third li a {
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+.footer_about {
+  display: flex;
+  justify-content: space-around;
+}
+.one_third i {
+  margin-right: 1rem;
+  color: #004ce6;
+}
+.footer_part {
+  background: rgba(217, 217, 217, 0.1);
+  padding: 0.2rem 0;
+}
